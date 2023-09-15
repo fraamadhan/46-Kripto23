@@ -64,7 +64,6 @@ function shiftCipherEncrypt() {
     let index = 0;
     for (let i = 0; i < alphabet.length; i++) {
       if (input.toLowerCase() === alphabet[i]) {
-        console.log(input);
         index = i;
         break;
       }
